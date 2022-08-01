@@ -119,7 +119,7 @@ proxy-groups:
 proxy-providers:
   互联鸡Lite:
     type: file
-    path: /storage/emulated/0/Android/data/com.kingsoft.moffice_pro/.cache/KingsoftOffice/file/download/31e3e302-1986-4501-8abc-aaf33fb1597a/com.github.kr328.clash.files/配置文件yaml.txt
+    path: ./配置文件yaml.txt
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
