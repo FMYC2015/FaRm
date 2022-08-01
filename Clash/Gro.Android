@@ -118,12 +118,14 @@ proxy-groups:
       - 互联鸡Lite
 proxy-providers:
   互联鸡Lite:
-    type: file
-    path: ./profiles/proxies/1654091891563.yaml
+    type: http
+    url: "https://subv2.nanoport.xyz/api/v1/client/subscribe?token=0eba31b15642ec37dfb30d7ca3b9abbb"
+    path: ./互联鸡Lite.yaml
+    interval: 3600
     health-check:
       enable: true
+      interval: 600
       url: http://www.gstatic.com/generate_204
-      interval: 300
 rule-providers:
   reject:
     type: http
