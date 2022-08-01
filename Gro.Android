@@ -206,6 +206,7 @@ rule-providers:
     path: ./ruleset/lancidr.yaml
     interval: 86400
 rules:
+  - DOMAIN,subv2.nanoport.xyz,DIRECT
   - DOMAIN-KEYWORD,youtube,📺 YouTube
   - DOMAIN,youtubei.googleapis.com,📺 YouTube
   - DOMAIN,yt3.ggpht.com,📺 YouTube
