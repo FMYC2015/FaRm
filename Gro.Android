@@ -51,7 +51,7 @@ proxy-groups:
 proxy-providers:
   互联鸡Lite:
     type: http
-    url: "https://raw.fastgit.org/FMYC2015/FaRm/Gates/Gates.Android"
+    url: "https://subv2.nanoport.xyz/api/v1/client/subscribe?token=0b59222493ab5d5f087b21ddb461374b"
     path: ./GatesAndroid.yaml
     interval: 3600
     health-check:
