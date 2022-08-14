@@ -31,7 +31,7 @@ proxy-groups:
     proxies:
       - 🛑 全球拦截
       - 🎯 全球直连
-      - 🗿 PAPALAOZI
+      - 🗿 节点选择
   - name: 🎯 全球直连
     type: select
     proxies:
