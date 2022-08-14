@@ -65,16 +65,6 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-proxy-providers:
-  BiHaiNode:
-    type: http
-    url: "https://proxies.bihai.cf/clash/proxies?c=CN,HK,TW,RU,JP,KR,SG"
-    path: BiHai.Clash/BiHaiNode.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
 rule-providers:
   applications:
     type: http
@@ -175,11 +165,11 @@ rules:
   - RULE-SET,Hijacking,🚫 运营劫持
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🎯 全球直连
-  - RULE-SET,google,🗿 PAPALAOZI
-  - RULE-SET,proxy,🗿 PAPALAOZI
+  - RULE-SET,google,🗿 节点选择
+  - RULE-SET,proxy,🗿 节点选择
   - RULE-SET,direct,🎯 全球直连
   - RULE-SET,lancidr,🎯 全球直连
   - RULE-SET,cncidr,🎯 全球直连
-  - RULE-SET,telegramcidr,🗿 PAPALAOZI
+  - RULE-SET,telegramcidr,🗿 节点选择
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
