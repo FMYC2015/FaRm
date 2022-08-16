@@ -73,7 +73,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   OpenitNode:
     type: http
-    url: "https://openit.daycat.space/clash"
+    url: "https://ghproxy.com/https://github.com/yu-steven/openit/raw/main/Clash.yaml"
     path: OpenitNode.Clash/OpenitNode.yaml
     interval: 3600
     health-check:
