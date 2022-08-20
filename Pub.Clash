@@ -80,16 +80,6 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-proxy-providers:
-  BiHaiNode:
-    type: http
-    url: "https://proxies.bihai.cf/clash/proxies?c=CN,HK,TW,RU,JP,KR,SG"
-    path: BiHai.Clash/BiHaiNode.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
 rule-providers:
   applications:
     type: http
