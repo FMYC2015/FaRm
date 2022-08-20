@@ -73,7 +73,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   OpenitNode:
     type: http
-    url: "https://raw.fastgit.org/yu-steven/openit/raw/main/Clash.yaml"
+    url: "https://raw.fastgit.org/yu-steven/openit/main/Clash.yaml"
     path: OpenitNode.Clash/OpenitNode.yaml
     interval: 3600
     health-check:
