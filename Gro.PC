@@ -13,7 +13,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
     use: 
-      - 互联鸡Lite
+      - 大盤雞 Plus
       - EEVPN Basic
   - name: ♻️ 自动选择
     type: url-test
@@ -22,7 +22,7 @@ proxy-groups:
     tolerance: 50
     proxies:
     use: 
-      - 互联鸡Lite
+      - 大盤雞 Plus
       - EEVPN Basic
   - name: 🚫 运营劫持
     type: select
@@ -48,10 +48,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
     use: 
-      - 互联鸡Lite
+      - 大盤雞 Plus
       - EEVPN Basic
 proxy-providers:
-  互联鸡Lite:
+  大盤雞 Plus:
     type: file
     path: ./profiles/1654091891563.yml
     health-check:
