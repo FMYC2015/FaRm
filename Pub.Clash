@@ -14,8 +14,8 @@ proxy-groups:
       - DIRECT
     use:
       - BiHaiNode
-      - NullNode
       - OpenitNode
+      - PaimonNode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -24,8 +24,8 @@ proxy-groups:
     proxies:
     use:
       - BiHaiNode
-      - NullNode
       - OpenitNode
+      - PaimonNode
   - name: 🚫 运营劫持
     type: select
     proxies:
@@ -50,8 +50,8 @@ proxy-groups:
       - DIRECT
     use:
       - BiHaiNode
-      - NullNode
       - OpenitNode
+      - PaimonNode
 proxy-providers:
   BiHaiNode:
     type: http
@@ -62,19 +62,19 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  NullNode:
+  OpenitNode:
     type: http
-    url: "https://nullnode.top/clashnode"
-    path: ./nullnode.yaml
+    url: "https://raw.fastgit.org/yu-steven/openit/main/Clash.yaml"
+    path: OpenitNode.Clash/OpenitNode.yaml
     interval: 3600
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  OpenitNode:
+  PaimonNode:
     type: http
-    url: "https://raw.fastgit.org/yu-steven/openit/main/Clash.yaml"
-    path: OpenitNode.Clash/OpenitNode.yaml
+    url: "https://pre.paimon.gq/publish/clash.yaml"
+    path: OpenitNode.Clash/PaimonNode.yaml
     interval: 3600
     health-check:
       enable: true
