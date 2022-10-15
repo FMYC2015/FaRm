@@ -47,10 +47,10 @@ proxy-groups:
     use:
       - PaimonNode
 proxy-providers:
-  OpenitNode:
+  PaimonNode:
     type: http
-    url: "https://ghproxy.com/https://github.com/yu-steven/openit/raw/main/Clash.yaml"
-    path: OpenitNode.Clash/OpenitNode.yaml
+    url: "https://pre.paimon.gq/publish/clash.yaml"
+    path: OpenitNode.Clash/PaimonNode.yaml
     interval: 3600
     health-check:
       enable: true
