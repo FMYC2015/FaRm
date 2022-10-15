@@ -49,7 +49,7 @@ proxy-groups:
 proxy-providers:
   PaimonNode:
     type: http
-    url: "https://pre.paimon.gq/publish/clash.yaml"
+    url: "https://raw.fastgit.org/paimonhub/Paimonnode/main/publish/clash.yaml"
     path: OpenitNode.Clash/PaimonNode.yaml
     interval: 3600
     health-check:
