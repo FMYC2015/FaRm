@@ -73,8 +73,8 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   PaimonNode:
     type: http
-    url: "https://pre.paimon.gq/publish/clash.yaml"
-    path: OpenitNode.Clash/PaimonNode.yaml
+    url: "https://raw.fastgit.org/paimonhub/Paimonnode/main/publish/clash.yaml"
+    path: PaimonNode.Clash/PaimonNode.yaml
     interval: 3600
     health-check:
       enable: true
