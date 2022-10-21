@@ -3,7 +3,17 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 external-controller: 0.0.0.0:9090
-log-level: info
+dns:
+  enabled: true
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies:
   - *
 proxy-groups:
@@ -50,12 +60,6 @@ rule-providers:
     behavior: classical
     url: "https://raw.fastgit.org/Loyalsoldier/clash-rules/release/applications.txt"
     path: ./ruleset/applications.yaml
-    interval: 86400
-  Hijacking:
-    type: http
-    behavior: classical
-    url: "https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml"
-    path: ./ruleset/Hijacking.yaml
     interval: 86400
   reject:
     type: http
@@ -141,7 +145,6 @@ rules:
   - DOMAIN,yacd.haishan.me,🎯 全球直连
   - RULE-SET,private,🎯 全球直连
   - RULE-SET,reject,🛑 全球拦截
-  - RULE-SET,Hijacking,🚫 运营劫持
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🎯 全球直连
   - RULE-SET,google,🗿 节点选择
