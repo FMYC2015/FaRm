@@ -7,6 +7,3 @@
 对网络上公开分享的节点进行测速筛选出较为稳定高速的节点，再导入到仓库中进行分享记录。
 
 虽然是测速筛选过后的节点，但仍然会出现部分节点不可用的情况，遇到这种情况建议选择Clash, Shadowrocket之类能自动切换低延迟节点的客户端。
-
-👉[Telegram群组](http://t.me/PapaLaozi) 
-👉[Telegram频道](https://t.me/PapaLao) 
