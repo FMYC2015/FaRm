@@ -61,7 +61,7 @@ proxy-groups:
 proxy-providers:
   BihaiNode:
     type: http
-    url: "https://proxies.bihai.cf/clash/proxies?c=CN,HK,MO,TW&speed=3,9&type=vmess,trojan&filter=rp"
+    url: "https://proxies.bihai.cf/clash/proxies?c=CN,HK,MO,TW&speed=3,9&type=ss,ssr,vmess,trojan&filter=rp"
     path: BiHai.Clash/BiHaiNode.yaml
     interval: 3600
     health-check:
