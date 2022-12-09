@@ -61,7 +61,7 @@ proxy-groups:
 proxy-providers:
   TopFreeNode:
     type: http
-    url: "https://raw.fastgit.org/alanbobs999/TopFreeProxies/master/Eternity.yaml"
+    url: "https://cdn.staticaly.com/gh/alanbobs999/TopFreeProxies@master/Eternity.yaml"
     path: TopFreeNode.Clash/TopFreeNode.yaml
     interval: 3600
     health-check:
