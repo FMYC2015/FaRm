@@ -59,7 +59,7 @@ proxy-groups:
     use:
       - TopFreeNode
 proxy-providers:
-  OpenitNode:
+  TopFreeNode:
     type: http
     url: "https://raw.fastgit.org/alanbobs999/TopFreeProxies/master/Eternity.yaml"
     path: TopFreeNode.Clash/TopFreeNode.yaml
