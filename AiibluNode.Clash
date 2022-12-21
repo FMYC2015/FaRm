@@ -24,7 +24,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
     use:
-      - TopFreeNode
+      - AiibluNode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -32,7 +32,7 @@ proxy-groups:
     tolerance: 50
     proxies:
     use:
-      - TopFreeNode
+      - AiibluNode
   - name: 🚫 运营劫持
     type: select
     proxies:
@@ -57,12 +57,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
     use:
-      - TopFreeNode
+      - AiibluNode
 proxy-providers:
   TopFreeNode:
     type: http
     url: "https://cdn.staticaly.com/gh/alanbobs999/TopFreeProxies@master/Eternity.yaml"
-    path: TopFreeNode.Clash/TopFreeNode.yaml
+    path: AiibluNode.Clash/AiibluNode.yaml
     interval: 3600
     health-check:
       enable: true
