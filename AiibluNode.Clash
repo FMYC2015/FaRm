@@ -59,7 +59,7 @@ proxy-groups:
     use:
       - AiibluNode
 proxy-providers:
-  TopFreeNode:
+  AiibluNode:
     type: http
     url: "https://cdn.staticaly.com/gh/alanbobs999/TopFreeProxies@master/Eternity.yaml"
     path: AiibluNode.Clash/AiibluNode.yaml
